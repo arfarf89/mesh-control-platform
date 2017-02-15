@@ -1,5 +1,5 @@
-import { PAGES_MENU } from './pages/pages.menu';
+import { PAGES_NAV } from './pages/pages.nav';
 
-export const MENU = [
-  ...PAGES_MENU
+export const NAV = [
+  ...PAGES_NAV
 ];

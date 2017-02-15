@@ -1,0 +1,12 @@
+<div class="page-top clearfix" baScrollPosition maxHeight="50" (scrollChange)="scrolledChanged($event)"
+     [ngClass]="{scrolled: isScrolled}">
+  <a routerLink="/pages/dashboard" class="al-logo clearfix"><span>Mesh-</span>Platform</a>
+
+  <div class="navs">
+
+    <ba-nav 
+        [nav]="nav"
+        *ngFor="let nav of navs"
+    ></ba-nav> 
+    
+</div>

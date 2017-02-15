@@ -1,0 +1,48 @@
+@import '../../sass/conf/conf';
+
+.navs {
+  float: left;
+}
+
+.navbar-item {
+  line-height: $top-height;
+  color: $sidebar-text;
+  font-weight: 300;
+  display: inline-block;
+  padding: 0 15px;
+  
+  &:first-child {
+    padding-left: 30px;
+  }
+
+  .dropdown-item a {
+    display: inline-block;
+    color: $dropdown-text;
+    padding: 4px 10px;
+  }
+
+  i.dropdown-arr {
+    position: absolute;
+    top: -22px;
+    left: 30px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 11px solid transparent;
+    border-bottom-color: rgba(0, 0, 0, 0.15);
+  }
+
+  i.dropdown-arr:after {
+    top: -9px;
+    left: 0px;
+    margin-left: -10px;
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #ffffff;
+  }
+  
+}

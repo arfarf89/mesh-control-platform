@@ -26,7 +26,9 @@ import {
   BaMultiCheckbox,
   BaPageTop,
   BaPictureUploader,
-  BaSidebar
+  BaSidebar,
+  BaNavbar,
+  BaNav
 } from './components';
 
 import { BaCardBlur } from './components/baCard/baCardBlur.directive';
@@ -47,7 +49,8 @@ import {
   BaImageLoaderService,
   BaMenuService,
   BaThemePreloader,
-  BaThemeSpinner
+  BaThemeSpinner,
+  BaNavService
 } from './services';
 
 import {
@@ -69,7 +72,9 @@ const NGA_COMPONENTS = [
   BaMultiCheckbox,
   BaPageTop,
   BaPictureUploader,
-  BaSidebar
+  BaSidebar,
+  BaNavbar,
+  BaNav
 ];
 
 const NGA_DIRECTIVES = [
@@ -89,7 +94,8 @@ const NGA_SERVICES = [
   BaImageLoaderService,
   BaThemePreloader,
   BaThemeSpinner,
-  BaMenuService
+  BaMenuService,
+  BaNavService
 ];
 
 const NGA_VALIDATORS = [
